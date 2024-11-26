@@ -3,10 +3,10 @@
 #
 # SOURCE_FILES: combined list of source and autocoding files
 # MOD_DEPS: (optional) module dependencies
-# UT_SOURCE_FILES: list of source files for unit tests
+ #UT_SOURCE_FILES: list of source files for unit tests
 #
-# More information in the F´ CMake API documentation:
-# https://nasa.github.io/fprime/UsersGuide/api/cmake/API.html
+ #More information in the F´ CMake API documentation:
+ #https://nasa.github.io/fprime/UsersGuide/api/cmake/API.html
 #
 ####
 
@@ -24,7 +24,7 @@ set(SOURCE_FILES
 # is an acceptable alternative and will be internally converted to `Ref_SignalGen`.
 #
 # set(MOD_DEPS
-#   MyPackage_MyOtherModule
-# )
+   MyPackage_MyOtherModule
+ )
 
 register_fprime_module()
